@@ -10,15 +10,11 @@
     "build": "dumi build",
     "create": "node scripts/create.js"
   },
-  "pre-commit": [
-    "build"
-  ],
   "dependencies": {
     "dumi": "^1.1.19",
     "ejs": "^3.1.6",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.1.1",
-    "metalsmith": "^2.3.0",
-    "pre-commit": "^1.2.2"
+    "metalsmith": "^2.3.0"
   }
 }
