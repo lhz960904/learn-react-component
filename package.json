@@ -1,0 +1,15 @@
+{
+  "name": "learn-react-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/improve-every-day/learn-react-component.git",
+  "author": "lihaozecq <lihaozecq@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "dumi dev",
+    "docs:build": "dumi build"
+  },
+  "dependencies": {
+    "dumi": "^1.1.19"
+  }
+}
