@@ -7,6 +7,7 @@ export default {
   resolve: {
     includes: ['components']
   },
+  publicPath:  process.env.NODE_ENV === 'production' ? '/learn-react-component/' : '/',
   outputPath: 'docs',
   styles: [`
     .__dumi-default-menu-list ul {
