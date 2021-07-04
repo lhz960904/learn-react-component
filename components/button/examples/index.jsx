@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import Button from '../index'
 
-export default function () {
+export default function Demo () {
   return <Button/>
 }
